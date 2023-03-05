@@ -16,3 +16,8 @@ To further increase the web app's complexity or make it more detailed, you can a
 ## [Task-2/GetUsers-App](https://get-users-app.vercel.app/)
 
 In Task 2, there is single page Web Application made using ReactJS and basics of Web Development. This project fetches information of employees of the company by API calling. Pure custom CSS was used to design the application. It also have a feature i.e. a API loader made through customized CSS, which spins till API calling is completed.
+
+
+## [Task-3/Registration-Form](https://registration-form-teal.vercel.app/)
+
+In this Task 3, we had to make a form which takes input from the user and displays the data on the same page. I made a form in HTML, passed the data through calling a javascript function whenever the submit button is clicked and displaying the entered data in a tabular format by making a new row in the center of the division each time when javascript is called through the submit button. Got CSS properties for all division and table rows.
