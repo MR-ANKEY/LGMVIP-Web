@@ -1,0 +1,32 @@
+.ItemList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .ItemList li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #8a2be2;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .ItemList li span {
+    flex-grow: 1;
+    margin-right: 10px;
+  }
+  
+  .ItemList li button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  

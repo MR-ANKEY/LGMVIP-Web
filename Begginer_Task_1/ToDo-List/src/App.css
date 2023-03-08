@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+  margin: 50px auto;
+  width: 400px;
+}
+
+h1 {
+  font-size: 48px;
+  color: #8a2be2;
+}
+
+input[type="text"] {
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #8a2be2;
+}
+
+button {
+  background-color: #8a2be2;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #dc3545;
+}
+
+.ItemList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ItemList li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #8a2be2;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.ItemList li span {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.ItemList li button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.ItemList li.added span {
+  color: #28a745;
+}
